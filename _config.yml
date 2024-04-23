@@ -1,30 +1,28 @@
-app_name: Awesome App
-app_subtitle: Short tagline
-app_download: https://apps.apple.com/us/app/flashtex-flashcards/id1534437697
-app_github: https://github.com/mikakruschel/app-landing-page
-app_id: 1534437697
-email: mail@kruschel.dev
+app_name: EasyMSR
+app_subtitle: iOS/Android app for MSRX6BT device via Bluetooth
+ios_download: https://apps.apple.com/us/app/easymsr-pro/id6483249260
+android_download: https://play.google.com/store/apps/details?id=com.easymsr
+app_id: 6483249260
+email: msr@tcool.ltd
 app_icon: /assets/icon.png
 favicon: /assets/icon.png
 
-made_by: // Made by [Miká Kruschel](https://kruschel.dev)
+made_by: TCool LTD.
 
 links:
   - title: AppStore Connect Widget
     url: https://ac-widget.xyz
 
 app_description: |
-    Create and deploy an iOS app landing page with Jekyll
+    EasyMSR is an iOS/Android app to control the MSRX6BT device via Bluetooth.
 
-    ## Usage
+    ## Features
 
-    1. Fork this repo or use it as a template
-    2. Edit `_config.yml` and enter the details for your app
-    3. Add screenshots (in `assets/screenshots/`) and app icon (in `assets` and add path in `_config.yml`)
-    4. Edit or remove Privacy Policy (`_pages/privacypolicy.md`)
-    5. Deploy to Vercel or Netlify ([guide](https://jekyllrb.com/resources/#guides))
+    1. Support READ/WRITE operations
+    1. Support 3 tracks
+    2. Support Lo-co/Hi-co (Low Coercivity/High Coercivity) magnetic stripe cards
+    3. Support ISO data format
     
-    <br>This template is open source and can be found at [GitHub](https://github.com/mikakruschel/app-landing-page).
 
 ####################################################
 ### Jekyll Configuration. No need to touch this. ###
