@@ -1,7 +1,11 @@
 app_name: EasyMSR
-app_subtitle: iOS/Android app for MSRX6BT device via Bluetooth
+usb_app_name: EasyMSR USB
+title: app for MSR605/MSRX6BT via USB or Bluetooth
+app_subtitle: iOS/Android app for MSRX6/MSRX6BT via Bluetooth
+usb_app_subtitle: Android app for MSR605x via USB
 ios_download: https://apps.apple.com/us/app/easymsr-pro/id6483249260
 android_download: https://play.google.com/store/apps/details?id=com.easymsr
+usb_android_download: https://play.google.com/store/apps/details?id=net.easymsr.usb
 app_id: 6483249260
 email: msr@tcool.ltd
 app_icon: /assets/icon.png
@@ -15,15 +19,7 @@ links:
     url: https://ac-widget.xyz
 
 app_description: |
-    EasyMSR is an iOS/Android app to control the MSRX6BT device via Bluetooth.
-
-    ## Features
-
-    1. Support READ/WRITE operations
-    1. Support 3 tracks
-    2. Support Lo-co/Hi-co (Low Coercivity/High Coercivity) magnetic stripe cards
-    3. Support ISO data format
-    
+    EasyMSR is an iOS/Android app for MSR605X/MSRX6/MSRX6BT. It can control the MSR reader/writer via Bluetooth or USB.    
 
 ####################################################
 ### Jekyll Configuration. No need to touch this. ###
