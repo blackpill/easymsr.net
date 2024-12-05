@@ -38,7 +38,7 @@ canonical_url: "https://www.easymsr.net"
 </section>
 <section class="max-w-screen-lg m-auto">
     <h2 class="ml-6 text-2xl font-bold">Screenshots</h2>
-    <div class="flex gap-x-7 overflow-x-scroll">
+    <div class="flex gap-x-7">
         {% assign screenshots = site.static_files | where: "screenshot", true %}
         {% for img in screenshots %}
         <img class="{% if forloop.first %}ml-7{% endif %} {% if forloop.last %}mr-7{% endif %} w-48 h-auto shadow rounded-2xl transform transition duration-300 hover:scale-105 my-7"
@@ -47,9 +47,46 @@ canonical_url: "https://www.easymsr.net"
     </div>
 </section>
 
-{% if site.app_description %}
-<section class="max-w-screen-lg m-auto px-6 markdown">
-    <h2 class="text-2xl font-bold mb-3">Description</h2>
-    {{ site.app_description | markdownify }}
+<section class="max-w-screen-lg m-auto px-6">
+    <h2 class="text-2xl font-bold mb-3">Features</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+        <div class="feature-card p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold mb-2">Basic Operations</h3>
+            <ul class="list-disc list-inside space-y-2">
+                <li>Read data from magnetic stripe cards</li>
+                <li>Write data to magnetic stripe cards</li>
+                <li>Copy data between cards</li>
+                <li>Erase tracks selectively</li>
+            </ul>
+        </div>
+        <div class="feature-card p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold mb-2">Batch Processing</h3>
+            <ul class="list-disc list-inside space-y-2">
+                <li>Read multiple cards to one file</li>
+                <li>Write multiple cards from one file</li>
+                <li>Export data files to iCloud</li>
+                <li>Import data files from storage</li>
+            </ul>
+        </div>
+        <div class="feature-card p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold mb-2">Technical Features</h3>
+            <ul class="list-disc list-inside space-y-2">
+                <li>Support 210 BPI and 75 BPI</li>
+                <li>Adjustable leading zero</li>
+                <li>ISO data format support</li>
+                <li>AAMVA & CA DMV format (Coming soon)</li>
+            </ul>
+        </div>
+        <div class="feature-card p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold mb-2">Compatibility</h3>
+            <ul class="list-disc list-inside space-y-2">
+                <li>Works with MSRx6BT device</li>
+                <li>iOS and Android support</li>
+                <li>Bluetooth connection</li>
+                <li>User-friendly interface</li>
+            </ul>
+        </div>
+    </div>
 </section>
-{% endif %}
+
+
