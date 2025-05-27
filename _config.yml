@@ -3,9 +3,9 @@ usb_app_name: EasyMSR USB
 title: MSR605/MSRX6BT App for Deftun/Tnaive/Misiri/Postech
 app_subtitle: iOS/Android app for MSRX6/MSRX6BT via Bluetooth
 usb_app_subtitle: Android app for MSR605x via USB
-ios_download: https://apps.apple.com/us/app/easymsr-pro/id6483249260
-android_download: https://play.google.com/store/apps/details?id=com.easymsr
-usb_android_download: https://play.google.com/store/apps/details?id=net.easymsr.usb
+ios_download: https://apps.apple.com/app/apple-store/id6483249260?pt=126665557&ct=easymsr.net&mt=8
+android_download: https://play.google.com/store/apps/details?id=com.easymsr&referrer=utm_source%3Deasymsrnet%26utm_medium%3Dorganic
+usb_android_download: https://play.google.com/store/apps/details?id=net.easymsr.usb&referrer=utm_source%3Deasymsrnet%26utm_medium%3Dorganic
 app_id: 6483249260
 email: msr@tcool.ltd
 app_icon: /assets/icon.png
