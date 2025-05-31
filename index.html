@@ -10,11 +10,11 @@ canonical_url: "https://www.easymsr.net"
         <h1 class="text-4xl font-bold">{{ site.app_name }}</h1>
         <p class="text-xl font-semibold mb-1">{{ site.app_subtitle }}</p>
         <div class="flex space-x-2 max-w-full">
-            <a href="{{ site.ios_download }}" target="_blank" rel="noopener noreferrer">
+            <a href="{{ site.ios_download }}" target="_blank" rel="noopener noreferrer" id="ios-download">
                 <img class="h-14" src="assets/apple-badge.png" alt="Download on the App Store" />
             </a>
             {% if site.android_download %}
-            <a href="{{ site.android_download }}" target="_blank" rel="noopener noreferrer">
+            <a href="{{ site.android_download }}" target="_blank" rel="noopener noreferrer" id="android-download">
                 <img class="h-14" src="assets/google-play-badge.svg" alt="Get it on Google Play" />
             </a>
             {% endif %}
@@ -29,7 +29,7 @@ canonical_url: "https://www.easymsr.net"
         <p class="text-xl font-semibold mb-1">{{ site.usb_app_subtitle }}</p>
         <div class="flex space-x-2 max-w-full">
             {% if site.usb_android_download %}
-            <a href="{{ site.usb_android_download }}" target="_blank" rel="noopener noreferrer">
+            <a href="{{ site.usb_android_download }}" target="_blank" rel="noopener noreferrer" id="usb-android-download">
                 <img class="h-14" src="assets/google-play-badge.svg" alt="Get it on Google Play" />
             </a>
             {% endif %}
