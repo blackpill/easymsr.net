@@ -5,7 +5,7 @@ canonical_url: "https://www.easymsr.net"
 
 <section class="flex flex-col sm:flex-row mt-16 mb-16 justify-center items-center gap-x-10 max-w-screen-md m-auto">
     <img class="h-auto filter drop-shadow-xl w-1/5" style="border-radius: 22.5%;"
-        src="{{ site.app_icon | relative_url }}" alt="app icon" />
+        src="{{ site.app_icon | relative_url }}" alt="EasyMSR app icon" />
     <div class="m-3 text-center sm:text-left">
         <h1 class="text-4xl font-bold">{{ site.app_name }}</h1>
         <p class="text-xl font-semibold mb-1">{{ site.app_subtitle }}</p>
@@ -23,13 +23,43 @@ canonical_url: "https://www.easymsr.net"
 </section>
 <section class="flex flex-col sm:flex-row mt-16 mb-16 justify-center items-center gap-x-10 max-w-screen-md m-auto">
     <img class="h-auto filter drop-shadow-xl w-1/5" style="border-radius: 22.5%;"
-         src="{{ site.app_icon | relative_url }}" alt="app icon" />
+         src="{{ site.app_icon | relative_url }}" alt="EasyMSR USB icon" />
     <div class="m-3 text-center sm:text-left">
         <h2 class="text-4xl font-bold">{{ site.usb_app_name }}</h2>
         <p class="text-xl font-semibold mb-1">{{ site.usb_app_subtitle }}</p>
         <div class="flex space-x-2 max-w-full">
             {% if site.usb_android_download %}
             <a href="{{ site.usb_android_download }}" target="_blank" rel="noopener noreferrer" id="usb-android-download">
+                <img class="h-14" src="assets/google-play-badge.svg" alt="Get it on Google Play" />
+            </a>
+            {% endif %}
+        </div>
+    </div>
+</section>
+<section class="flex flex-col sm:flex-row mt-16 mb-16 justify-center items-center gap-x-10 max-w-screen-md m-auto">
+    <img class="h-auto filter drop-shadow-xl w-1/5" style="border-radius: 22.5%;"
+         src="{{ site.app_icon | relative_url }}" alt="MSR880 icon" />
+    <div class="m-3 text-center sm:text-left">
+        <h2 class="text-4xl font-bold">MSR880</h2>
+        <p class="text-xl font-semibold mb-1">Android app for Osayde MSR880 via USB</p>
+        <div class="flex space-x-2 max-w-full">
+            {% if site.msr880_android_download %}
+            <a href="{{ site.msr880_android_download }}" target="_blank" rel="noopener noreferrer" id="msr880-android-download">
+                <img class="h-14" src="assets/google-play-badge.svg" alt="Get it on Google Play" />
+            </a>
+            {% endif %}
+        </div>
+    </div>
+</section>
+<section class="flex flex-col sm:flex-row mt-16 mb-16 justify-center items-center gap-x-10 max-w-screen-md m-auto">
+    <img class="h-auto filter drop-shadow-xl w-1/5" style="border-radius: 22.5%;"
+         src="assets/BTMSR-Logo-460.jpg" alt="BTMSR logo" />
+    <div class="m-3 text-center sm:text-left">
+        <h2 class="text-4xl font-bold">BTMSR</h2>
+        <p class="text-xl font-semibold mb-1">Android app for Postech BTMSR via Bluetooth</p>
+        <div class="flex space-x-2 max-w-full">
+            {% if site.btmsr_android_download %}
+            <a href="{{ site.btmsr_android_download }}" target="_blank" rel="noopener noreferrer" id="btmsr-android-download">
                 <img class="h-14" src="assets/google-play-badge.svg" alt="Get it on Google Play" />
             </a>
             {% endif %}
