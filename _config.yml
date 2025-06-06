@@ -2,6 +2,7 @@ app_name: EasyMSR
 usb_app_name: EasyMSR USB
 title: MSR605/MSRX6BT App for Deftun/Tnaive/Misiri/Postech
 app_subtitle: iOS/Android app for MSRX6/MSRX6BT via Bluetooth
+app_description: EasyMSR can control MSR605X/MSRX6/MSRX6BT via Bluetooth or USB. It's compatible with Deftun/Tnaive/Misiri/Postech.
 usb_app_subtitle: Android app for MSR605x via USB
 ios_download: https://apps.apple.com/app/apple-store/id6483249260?pt=126665557&ct=easymsr.net&mt=8
 android_download: https://play.google.com/store/apps/details?id=com.easymsr&referrer=utm_source%3Deasymsrnet%26utm_medium%3Dorganic
@@ -19,9 +20,6 @@ made_by: TCool LTD.
 links:
   - title: AppStore Connect Widget
     url: https://ac-widget.xyz
-
-app_description: |
-    EasyMSR is an iOS/Android app for MSR605X/MSRX6/MSRX6BT. It can control the MSR reader/writer via Bluetooth or USB.    
 
 ####################################################
 ### Jekyll Configuration. No need to touch this. ###

@@ -8,9 +8,24 @@
   <link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
   <link rel="canonical" href="{{ site.canonical_url }}">
 
-  <title>{{ site.app_name }}: {{ site.title }}</title>
+  <title>
+    {%- if page.title != "blank" -%}
+      {%- if page.title == nil or page.title == "" -%}
+          {{ page.date | date: "%Y" }} | {{ site.app_name }}: {{ site.title }}
+      {%- else -%}
+          {{ page.title }}
+      {%- endif -%}
+    {%- else -%}
+      {{ site.app_name }}: {{ site.title }}
+    {%- endif -%}
+  </title>
+  
+  {%- if page.description == nil or page.description == "" -%}
+    <meta name="description" content="{{ site.app_description }}">
+  {%- else -%}
+    <meta name="description" content="{{ page.description }}">
+  {%- endif -%}
 
-  <meta name="description" content="{{ site.app_name }} - {{ site.title }}">
   {% if site.app_id %}
   <meta name="apple-itunes-app" content="app-id={{ site.app_id }}">
   {% endif %}
