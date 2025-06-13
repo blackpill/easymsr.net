@@ -11,7 +11,7 @@
   <title>
     {%- if page.title != "blank" -%}
       {%- if page.title == nil or page.title == "" -%}
-          {{ page.date | date: "%Y" }} | {{ site.app_name }}: {{ site.title }}
+          {{ site.app_name }}: {{ site.title }}
       {%- else -%}
           {{ page.title }}
       {%- endif -%}
