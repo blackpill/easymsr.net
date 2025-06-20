@@ -1,14 +1,14 @@
 ---
 layout: post
-title: MSR90 Smart Input for MSR90 reader
-description: MSR90 Smart Input is an iOS application designed for use with MSR90 magnetic stripe card reader. You can use the app to extract data from multiple MSR cards easily.
+title: MSR90 Reader for Safari
+description: MSR90 Reader is a Safari extension designed for use with MSR90 magnetic stripe card reader. You can use the app to extract data (ie. card number, card holder, expiry date) from multiple MSR cards easily.
 permalink: /msr90/
 include_in_footer: true
 ---
 
-# MSR90 Smart Input
+# MSR90 Reader
 
-MSR90 Smart Input is an iOS application designed for use with MSR90 magnetic stripe card reader. You can use the app to extract data from multiple MSR cards easily. The app contains a Safari extension that allows you to extract data from MSR cards directly on your web applications, such as Google Sheet, Zoho Sheet.
+MSR90 Reader is a Safari extension designed for use with MSR90 magnetic stripe card reader. You can use the extension to extract data (ie. card number, card holder, expiry date) from multiple MSR cards easily. The Safari extension allows you to extract data from MSR cards directly into your web applications, such as Google Sheet, Zoho Sheet.
 
 <p align="center">
   <a href="{{ site.msr90_ios_download }}" target="_blank" rel="noopener noreferrer">
