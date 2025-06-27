@@ -1,7 +1,7 @@
 ---
 layout: post
-title: MSR90 Reader for Safari
-description: MSR90 Reader is a Safari extension designed for use with MSR90 magnetic stripe card reader. You can use the app to extract data (ie. card number, card holder, expiry date) from multiple MSR cards easily.
+title: MSR90 Reader Software, App, Tutorial video 
+description: Resources for MSR90 Reader include software, app, tutorial video, and more. With the app, you can extract data efficiently from MSR cards directly into your web applications, such as Google Sheet, Zoho Sheet, QuickBooks, Google Forms, Airtable, CRM, and more.
 permalink: /msr90/
 include_in_footer: true
 ---
