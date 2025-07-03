@@ -9,7 +9,8 @@ android_download: https://play.google.com/store/apps/details?id=com.easymsr&refe
 usb_android_download: https://play.google.com/store/apps/details?id=net.easymsr.usb&referrer=utm_source%3Deasymsrnet%26utm_medium%3Dorganic
 msr880_android_download: https://play.google.com/store/apps/details?id=net.easymsr.osayde.usb&referrer=utm_source%3Deasymsrnet%26utm_medium%3Dorganic
 btmsr_android_download: https://play.google.com/store/apps/details?id=ltd.tcool.btmsr&referrer=utm_source%3Deasymsrnet%26utm_medium%3Dorganic
-msr90_ios_download: https://apps.apple.com/app/msr90-smart-input/id6746392215?pt=126665557&ct=easymsr.net&mt=8
+msr90_ios_download: https://apps.apple.com/gb/app/msr-reader/id6747325787?pt=126665557&ct=easymsr.net&mt=8
+msr90_safari_download: https://apps.apple.com/app/msr90-smart-input/id6746392215?pt=126665557&ct=easymsr.net&mt=8
 app_id: 6483249260
 email: msr@tcool.ltd
 app_icon: /assets/icon.png
