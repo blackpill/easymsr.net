@@ -1,13 +1,23 @@
 ---
 layout: page
 canonical_url: "https://www.easymsr.net"
+title: EasyMSR Software & App Download for MSRX6 and MSR605X
+description: Download EasyMSR software for MSRX6, MSRX6BT and MSR605X. Get the official Android and iOS apps, USB software, setup help and compatibility information.
 ---
+
+<header class="max-w-screen-lg m-auto px-6 pt-12 text-center">
+    <h1 class="text-4xl font-bold mb-4">EasyMSR Software for MSRX6, MSRX6BT and MSR605X</h1>
+    <p class="text-lg max-w-3xl m-auto">
+        Download the official EasyMSR apps for compatible magnetic stripe readers and writers.
+        Choose Bluetooth software for MSRX6/MSRX6BT or Android USB software for MSR605X.
+    </p>
+</header>
 
 <section class="flex flex-col sm:flex-row mt-16 mb-16 justify-center items-center gap-x-10 max-w-screen-md m-auto">
     <img class="h-auto filter drop-shadow-xl w-1/5" style="border-radius: 22.5%;"
         src="{{ site.app_icon | relative_url }}" alt="EasyMSR app icon" />
     <div class="m-3 text-center sm:text-left">
-        <h1 class="text-4xl font-bold">{{ site.app_name }}</h1>
+        <h2 class="text-4xl font-bold"><a href="/msrx6-software/">{{ site.app_name }}</a></h2>
         <p class="text-xl font-semibold mb-1">{{ site.app_subtitle }}</p>
         <div class="flex space-x-2 max-w-full">
             <a href="{{ site.ios_download }}" target="_blank" rel="noopener noreferrer" id="ios-download">
@@ -21,11 +31,34 @@ canonical_url: "https://www.easymsr.net"
         </div>
     </div>
 </section>
+
+<section class="max-w-screen-lg m-auto px-6 py-12">
+    <h2 class="text-2xl font-bold mb-4">Choose the Right EasyMSR Download</h2>
+    <div class="overflow-x-auto">
+        <table class="w-full bg-white dark:bg-gray-800 shadow rounded-lg">
+            <thead><tr><th class="p-3 text-left">Device</th><th class="p-3 text-left">Connection</th><th class="p-3 text-left">Platform</th><th class="p-3 text-left">Software</th></tr></thead>
+            <tbody>
+                <tr><td class="p-3">MSRX6 / MSRX6BT</td><td class="p-3">Bluetooth</td><td class="p-3">iOS and Android</td><td class="p-3"><a class="underline" href="/msrx6-software/">MSRX6 software download</a></td></tr>
+                <tr><td class="p-3">MSR605X</td><td class="p-3">USB OTG</td><td class="p-3">Android</td><td class="p-3"><a class="underline" href="/msr605x-software/">MSR605X software download</a></td></tr>
+                <tr><td class="p-3">MSR90</td><td class="p-3">USB</td><td class="p-3">Windows, iOS and Safari</td><td class="p-3"><a class="underline" href="/msr90/">MSR90 software and app</a></td></tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section class="max-w-screen-lg m-auto px-6 py-12">
+    <h2 class="text-2xl font-bold mb-4">EasyMSR FAQ</h2>
+    <div class="space-y-5">
+        <div><h3 class="text-xl font-semibold">Which EasyMSR app should I download?</h3><p>Use the Bluetooth app for MSRX6/MSRX6BT. Use EasyMSR USB for an MSR605X connected to Android through USB OTG.</p></div>
+        <div><h3 class="text-xl font-semibold">Is EasyMSR available for Android and iOS?</h3><p>The Bluetooth version is available for Android and iOS. The MSR605X USB version is available for compatible Android devices.</p></div>
+        <div><h3 class="text-xl font-semibold">Where can I safely download EasyMSR?</h3><p>Use the App Store and Google Play links on this website. They point to the official store listings and avoid unverified third-party APK files.</p></div>
+    </div>
+</section>
 <section class="flex flex-col sm:flex-row mt-16 mb-16 justify-center items-center gap-x-10 max-w-screen-md m-auto">
     <img class="h-auto filter drop-shadow-xl w-1/5" style="border-radius: 22.5%;"
          src="{{ site.app_icon | relative_url }}" alt="EasyMSR USB icon" />
     <div class="m-3 text-center sm:text-left">
-        <h2 class="text-4xl font-bold">{{ site.usb_app_name }}</h2>
+        <h2 class="text-4xl font-bold"><a href="/msr605x-software/">{{ site.usb_app_name }}</a></h2>
         <p class="text-xl font-semibold mb-1">{{ site.usb_app_subtitle }}</p>
         <div class="flex space-x-2 max-w-full">
             {% if site.usb_android_download %}
@@ -133,5 +166,3 @@ canonical_url: "https://www.easymsr.net"
         </div>
     </div>
 </section>
-
-

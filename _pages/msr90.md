@@ -1,12 +1,17 @@
 ---
 layout: post
-title: MSR90 Reader Software, App, Tutorial video 
-description: Resources for MSR90 Reader include software, app, tutorial video, and more. With the app, you can extract data efficiently from MSR cards directly into your web applications, such as Google Sheet, Zoho Sheet, QuickBooks, Google Forms, Airtable, CRM, and more.
+title: MSR90 Software Download, Setup Guide & Reader App
+description: Download MSR90 software, install the reader app and follow the setup guide for Windows, iOS and Safari. Includes compatibility details and a tutorial video.
 permalink: /msr90/
 include_in_footer: true
+software_name: MSR90 Reader
+operating_system: Windows, iOS, macOS
+download_url: https://www.easymsr.net/assets/msr90setup.zip
 ---
 
-# MSR90 Reader
+# MSR90 Software Download and Reader App
+
+Download MSR90 software for Windows or choose an MSR90 reader app for iOS and Safari. The MSR90 is a USB keyboard-emulation magnetic stripe reader, so many computers can accept basic card input without a separate driver.
 
 There are two apps for MSR90 Reader:
 
@@ -52,8 +57,22 @@ This app is ideal for users who need to manage MSR cards for access control, pay
 
 **MSR90 Software:**
 <p align="center">
-  <a href="/assets/msr90setup.zip" target="_blank" rel="noopener noreferrer">MSR90 Software Download</a>
+  <a href="/assets/msr90setup.zip" target="_blank" rel="noopener noreferrer">Download MSR90 Software for Windows</a>
 </p>
+
+## MSR90 Windows Setup
+
+1. Connect the MSR90 reader to a USB port.
+2. Wait for Windows to recognize the USB keyboard-compatible device.
+3. Open a text editor and swipe a test card to confirm basic input.
+4. Install the MSR90 software above when you need configuration or structured data features.
+5. Only process card data that you are authorized to access.
+
+## Related EasyMSR Software
+
+- [MSRX6 Bluetooth software for Android and iOS](/msrx6-software/)
+- [MSR605X Android USB software](/msr605x-software/)
+- [EasyMSR app downloads and compatibility overview](/)
 
 <p align="center">
   <img src="/assets/msr90product.jpg" alt="MSR90 Product Photo" style="max-width:360px; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.12); margin-bottom:16px;" />

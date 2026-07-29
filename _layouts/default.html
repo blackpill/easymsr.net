@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
-  <link rel="canonical" href="{{ site.canonical_url }}">
+  <link rel="canonical" href="{{ page.canonical_url | default: page.url | absolute_url }}">
 
   <title>
     {%- if page.title != "blank" -%}
@@ -30,6 +30,35 @@
   <meta name="apple-itunes-app" content="app-id={{ site.app_id }}">
   {% endif %}
   <link rel="shortcut icon" href="{{ site.favicon | relative_url }}" type="image/x-icon">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "EasyMSR",
+    "url": {{ site.url | jsonify }},
+    "description": {{ site.app_description | jsonify }}
+  }
+  </script>
+  {% if page.software_name %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": {{ page.software_name | jsonify }},
+    "operatingSystem": {{ page.operating_system | jsonify }},
+    "applicationCategory": "UtilitiesApplication",
+    "description": {{ page.description | jsonify }},
+    "url": {{ page.url | absolute_url | jsonify }},
+    "downloadUrl": {{ page.download_url | jsonify }},
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+  {% endif %}
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10944333226">
