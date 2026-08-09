@@ -72,3 +72,7 @@ This page links directly to the EasyMSR listings on Google Play and the Apple Ap
 The mobile Bluetooth app normally communicates directly with the compatible reader. A separate Windows driver is not installed on Android or iOS.
 
 For assistance, contact [{{ site.email }}](mailto:{{ site.email }}).
+
+## More USB Reader Software
+
+If your hardware uses USB instead of Bluetooth, use the [MSR605X Android USB software and setup guide](/msr605x-software/) or the [MSR90 software download and reader setup guide](/msr90/). You can also compare every model on the [EasyMSR software overview](/).

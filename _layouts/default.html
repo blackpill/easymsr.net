@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
   <link rel="canonical" href="{{ page.canonical_url | default: page.url | absolute_url }}">
+  {% if page.last_modified_at %}<meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
   <title>
     {%- if page.title != "blank" -%}
