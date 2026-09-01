@@ -103,12 +103,17 @@ description: Download EasyMSR software for MSRX6, MSRX6BT and MSR605X. Get the o
     <img class="h-auto filter drop-shadow-xl w-1/5" style="border-radius: 22.5%;"
          src="assets/BTMSR-Logo-460.jpg" alt="BTMSR logo" />
     <div class="m-3 text-center sm:text-left">
-        <h2 class="text-4xl font-bold">BTMSR</h2>
-        <p class="text-xl font-semibold mb-1">Android app for Postech BTMSR via Bluetooth</p>
-        <div class="flex space-x-2 max-w-full">
+        <h2 class="text-4xl font-bold"><a href="/btmsr/">BTMSR</a></h2>
+        <p class="text-xl font-semibold mb-1">Android/iOS app for Postech BTMSR via Bluetooth</p>
+        <div class="flex flex-wrap justify-center sm:justify-start gap-2 max-w-full">
             {% if site.btmsr_android_download %}
             <a href="{{ site.btmsr_android_download }}" target="_blank" rel="noopener noreferrer" id="btmsr-android-download">
                 <img class="h-14" src="assets/google-play-badge.svg" alt="Get it on Google Play" />
+            </a>
+            {% endif %}
+            {% if site.btmsr_ios_download %}
+            <a href="{{ site.btmsr_ios_download }}" target="_blank" rel="noopener noreferrer" id="btmsr-ios-download">
+                <img class="h-14" src="assets/apple-badge.png" alt="Download BTMSR on the App Store" />
             </a>
             {% endif %}
         </div>
