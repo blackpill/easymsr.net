@@ -18,6 +18,8 @@ EasyMSR connects compatible **MSRX6 and MSRX6BT magnetic stripe readers and writ
 - [Download EasyMSR for Android on Google Play]({{ site.android_download }})
 - [Download EasyMSR for iPhone and iPad on the App Store]({{ site.ios_download }})
 
+Need compatible hardware? [Buy an MSR X6 reader on Amazon](https://www.amazon.com/gp/product/B0105YP5NW?&linkCode=ll2&tag=blackpill07-20&linkId=f2e3a6db5a0756d0c4abffc20f8a3c2a&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl){: rel="nofollow sponsored noopener noreferrer" target="_blank"}. Check that the listing supports Bluetooth before purchasing.
+
 ## Supported Hardware
 
 EasyMSR is designed for Bluetooth-capable MSRX6/MSRX6BT devices, including compatible models sold under brands such as Deftun, Tnaive, Misiri and Postech. Hardware revisions can differ, so confirm that your reader supports Bluetooth before installing the app.

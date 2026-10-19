@@ -28,6 +28,8 @@ last_modified_at: 2026-08-09
 
 The store listing above is the recommended download source. It provides the current Android release and avoids unverified APK files from third-party download sites.
 
+Need the USB reader? [Buy an MSR605X reader/writer on Amazon](https://www.amazon.com/Deftun-Reader-Writer-Encoder-MSR605X/dp/B07FY6KH1X?crid=1UZXS24V0QNER&dib=eyJ2IjoiMSJ9.dxlizDNJOWvIPcPAhNIkeXiOv0JuVdrhRlQ3NlmakC0-LuVD7Tbm5lDcv4sawICvxGTZkzzzo6PwppLa0Hxl5t1lsMBvro6KD8zt0SrVDbwJwSai5rtdhRPnoYiFkwz-I81VjBL5qxJN7gMK579tF80XzjFLCAxwUm8MeZfAYaPgFX10afcOxtzS_WsHbGu2_Xqjxdz0FAYpGwCzwkRiyuo-ZL9ToZ8X6VhaaxPey6Y.Jxy589QVa7S9AIgoBusrGyfkd4b8QTY3ZZNUtkbwItI&dib_tag=se&keywords=msr605x&qid=1792450665&sprefix=msr60%2Caps%2C528&sr=8-1&linkCode=ll2&tag=blackpill07-20&linkId=b861e4a62b1d7521951c2cf5cb4d1765&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl){: rel="nofollow sponsored noopener noreferrer" target="_blank"}. Confirm the model and USB connection before purchasing.
+
 ## MSR605X Compatibility and Requirements
 
 Before installing, confirm that your setup includes all of the following:

@@ -121,7 +121,7 @@ Usually not for basic input. A standard MSR90 in keyboard-emulation mode is norm
 The MSR90 is a compact, hand-swipe magnetic card reader designed for quick data capture. Its USB keyboard interface, low power requirements, and support for common magnetic stripe formats make it suitable for compatible POS, access-control, membership, and authorized data-entry systems.
 
 <p align="center">
-  <a href="https://amzn.to/3FRqRMD" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display:inline-block; background:#1976d2; color:#fff; font-size:1.1em; font-weight:bold; padding:12px 32px; border-radius:6px; text-decoration:none; margin:16px 0; box-shadow:0 2px 8px rgba(25,118,210,0.15);">Buy MSR90 Reader on Amazon</a>
+  <a href="https://www.amazon.com/MSR90-Magnetic-Credit-Reader-Deftun/dp/B01DUB4GVO?crid=1HH6GIZFM3VE2&amp;dib=eyJ2IjoiMSJ9.cUqoIKW8pBgIhSRCRCzFIoiHzJ2ofmjEMijU7JLfyZ__KwDDoWNO9fhkSdyIqERdoII3TVixyaaBm64H1tnG5cTc-yK3XFpAV6Pjzxl-LqjijynGZyc2833bX6EVwr0pbE5c1dFuBglw2LbVus9kZ80XzjFLCAxwUm8MeZfAYaPbvmxEx2lne82OgMhep_jAOZkGKukjYdJ0xzZUiBtnV9jTRUbvDnUduVshEgef8xI.4tLw3K3UzvX7gQtTRqWDO-2SoEj7Osbv9Qcul5A-Nqg&amp;dib_tag=se&amp;keywords=msr90&amp;qid=1792450903&amp;sprefix=btsr%2Caps%2C11444&amp;sr=8-1&amp;linkCode=ll2&amp;tag=blackpill07-20&amp;linkId=0545f148ed27a5f368860e891d129037&amp;language=en_US&amp;gaOptInStatus=true&amp;ref_=as_li_ss_tl" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display:inline-block; background:#1976d2; color:#fff; font-size:1.1em; font-weight:bold; padding:12px 32px; border-radius:6px; text-decoration:none; margin:16px 0; box-shadow:0 2px 8px rgba(25,118,210,0.15);">Buy MSR90 Reader on Amazon</a>
 </p>
 
 ## Frequently Asked Questions
