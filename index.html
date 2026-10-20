@@ -121,16 +121,29 @@ description: Download EasyMSR software for MSRX6, MSRX6BT and MSR605X. Get the o
 </section>
 <section class="flex flex-col sm:flex-row mt-16 mb-16 justify-center items-center gap-x-10 max-w-screen-md m-auto">
     <img class="h-auto filter drop-shadow-xl w-1/5" style="border-radius: 22.5%;"
-         src="assets/msr90.png" alt="BTMSR logo" />
+         src="assets/msr90.png" alt="MSR90 Reader for Safari app icon" />
     <div class="m-3 text-center sm:text-left">
         <h2 class="text-4xl font-bold"><a href="/msr90/">MSR90 Reader for Safari</a></h2>
         <p class="text-xl font-semibold mb-1">Safari extension for MSR90 Reader</p>
         <div class="flex space-x-2 max-w-full">
-            {% if site.msr90_ios_download %}
-            <a href="{{ site.msr90_ios_download }}" target="_blank" rel="noopener noreferrer" id="msr90-ios-download">
-                <img class="h-14" src="assets/apple-badge.png" alt="Download on the App Store" />
+            {% if site.msr90_safari_download %}
+            <a href="{{ site.msr90_safari_download }}" target="_blank" rel="noopener noreferrer" id="msr90-safari-download">
+                <img class="h-14" src="assets/apple-badge.png" alt="Download MSR90 Reader for Safari on the App Store" />
             </a>
             {% endif %}
+        </div>
+    </div>
+</section>
+<section class="flex flex-col sm:flex-row mt-16 mb-16 justify-center items-center gap-x-10 max-w-screen-md m-auto">
+    <img class="h-auto filter drop-shadow-xl w-1/5" style="border-radius: 22.5%;"
+         src="assets/msr-reader-icon.jpg" alt="MSR Reader app icon" />
+    <div class="m-3 text-center sm:text-left">
+        <h2 class="text-4xl font-bold"><a href="{{ site.msr90_ios_download }}" target="_blank" rel="noopener noreferrer">MSR Reader: Magstripe Data</a></h2>
+        <p class="text-xl font-semibold mb-1">Read and parse magstripe data on iPhone and iPad; export CSV files</p>
+        <div class="flex space-x-2 max-w-full">
+            <a href="{{ site.msr90_ios_download }}" target="_blank" rel="noopener noreferrer" id="msr-reader-ios-download">
+                <img class="h-14" src="assets/apple-badge.png" alt="Download MSR Reader on the App Store" />
+            </a>
         </div>
     </div>
 </section>
