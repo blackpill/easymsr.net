@@ -28,8 +28,6 @@ last_modified_at: 2026-08-09
 
 The store listing above is the recommended download source. It provides the current Android release and avoids unverified APK files from third-party download sites.
 
-Need the USB reader? [Buy an MSR605X reader/writer on Amazon](https://www.amazon.com/Deftun-Reader-Writer-Encoder-MSR605X/dp/B07FY6KH1X?crid=1UZXS24V0QNER&dib=eyJ2IjoiMSJ9.dxlizDNJOWvIPcPAhNIkeXiOv0JuVdrhRlQ3NlmakC0-LuVD7Tbm5lDcv4sawICvxGTZkzzzo6PwppLa0Hxl5t1lsMBvro6KD8zt0SrVDbwJwSai5rtdhRPnoYiFkwz-I81VjBL5qxJN7gMK579tF80XzjFLCAxwUm8MeZfAYaPgFX10afcOxtzS_WsHbGu2_Xqjxdz0FAYpGwCzwkRiyuo-ZL9ToZ8X6VhaaxPey6Y.Jxy589QVa7S9AIgoBusrGyfkd4b8QTY3ZZNUtkbwItI&dib_tag=se&keywords=msr605x&qid=1792450665&sprefix=msr60%2Caps%2C528&sr=8-1&linkCode=ll2&tag=blackpill07-20&linkId=b861e4a62b1d7521951c2cf5cb4d1765&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl){: rel="nofollow sponsored noopener noreferrer" target="_blank"}. Confirm the model and USB connection before purchasing.
-
 ## MSR605X Compatibility and Requirements
 
 Before installing, confirm that your setup includes all of the following:
@@ -94,6 +92,18 @@ Android uses USB host access rather than a traditional Windows driver. The phone
 ### Should I download an MSR605X APK from another website?
 
 Use the official Google Play link above when possible. Third-party APK packages can be outdated or modified and do not provide the same update path as the official store listing.
+
+## About the MSR605X Reader/Writer
+
+<p align="center">
+  <img src="/assets/msr605x-product.jpg" alt="MSR605X USB magnetic stripe reader/writer" width="360" height="256" loading="lazy" style="max-width:100%; height:auto; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.12); margin-bottom:16px;" />
+</p>
+
+The MSR605X is a USB magnetic stripe reader/writer for compatible cards and track formats. To use it with EasyMSR USB on Android, confirm that your phone supports USB OTG and that you have a suitable adapter; hardware revisions can differ.
+
+<p align="center">
+  <a href="https://www.amazon.com/Deftun-Reader-Writer-Encoder-MSR605X/dp/B07FY6KH1X?crid=1UZXS24V0QNER&amp;dib=eyJ2IjoiMSJ9.dxlizDNJOWvIPcPAhNIkeXiOv0JuVdrhRlQ3NlmakC0-LuVD7Tbm5lDcv4sawICvxGTZkzzzo6PwppLa0Hxl5t1lsMBvro6KD8zt0SrVDbwJwSai5rtdhRPnoYiFkwz-I81VjBL5qxJN7gMK579tF80XzjFLCAxwUm8MeZfAYaPgFX10afcOxtzS_WsHbGu2_Xqjxdz0FAYpGwCzwkRiyuo-ZL9ToZ8X6VhaaxPey6Y.Jxy589QVa7S9AIgoBusrGyfkd4b8QTY3ZZNUtkbwItI&amp;dib_tag=se&amp;keywords=msr605x&amp;qid=1792450665&amp;sprefix=msr60%2Caps%2C528&amp;sr=8-1&amp;linkCode=ll2&amp;tag=blackpill07-20&amp;linkId=b861e4a62b1d7521951c2cf5cb4d1765&amp;language=en_US&amp;gaOptInStatus=true&amp;ref_=as_li_ss_tl" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display:inline-block; background:#1976d2; color:#fff; font-size:1.1em; font-weight:bold; padding:12px 32px; border-radius:6px; text-decoration:none; margin:16px 0; max-width:100%; box-sizing:border-box; box-shadow:0 2px 8px rgba(25,118,210,0.15);">Buy MSR605X Reader/Writer on Amazon</a>
+</p>
 
 ## Frequently Asked Questions
 

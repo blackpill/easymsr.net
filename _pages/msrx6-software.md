@@ -18,8 +18,6 @@ EasyMSR connects compatible **MSRX6 and MSRX6BT magnetic stripe readers and writ
 - [Download EasyMSR for Android on Google Play]({{ site.android_download }})
 - [Download EasyMSR for iPhone and iPad on the App Store]({{ site.ios_download }})
 
-Need compatible hardware? [Buy an MSR X6 reader on Amazon](https://www.amazon.com/gp/product/B0105YP5NW?&linkCode=ll2&tag=blackpill07-20&linkId=f2e3a6db5a0756d0c4abffc20f8a3c2a&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl){: rel="nofollow sponsored noopener noreferrer" target="_blank"}. Check that the listing supports Bluetooth before purchasing.
-
 ## Supported Hardware
 
 EasyMSR is designed for Bluetooth-capable MSRX6/MSRX6BT devices, including compatible models sold under brands such as Deftun, Tnaive, Misiri and Postech. Hardware revisions can differ, so confirm that your reader supports Bluetooth before installing the app.
@@ -62,6 +60,18 @@ Check that EasyMSR has the Bluetooth permissions required by your Android versio
 ### I have an MSR605X USB reader
 
 Use the separate [MSR605X Android USB software page](/msr605x-software/). The Bluetooth and USB products use different connection methods.
+
+## About the MSR X6 Reader/Writer
+
+<p align="center">
+  <img src="/assets/msrx6-product.jpg" alt="MSR X6 magnetic stripe reader/writer" width="360" height="240" loading="lazy" style="max-width:100%; height:auto; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.12); margin-bottom:16px;" />
+</p>
+
+The MSR X6 is a magnetic stripe reader/writer for supported track formats. Bluetooth-capable MSRX6 and MSRX6BT models can connect to EasyMSR on Android and iOS; check the exact hardware revision and Bluetooth support before purchasing.
+
+<p align="center">
+  <a href="https://www.amazon.com/gp/product/B0105YP5NW?&amp;linkCode=ll2&amp;tag=blackpill07-20&amp;linkId=f2e3a6db5a0756d0c4abffc20f8a3c2a&amp;language=en_US&amp;gaOptInStatus=true&amp;ref_=as_li_ss_tl" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display:inline-block; background:#1976d2; color:#fff; font-size:1.1em; font-weight:bold; padding:12px 32px; border-radius:6px; text-decoration:none; margin:16px 0; max-width:100%; box-sizing:border-box; box-shadow:0 2px 8px rgba(25,118,210,0.15);">Buy MSR X6 Reader/Writer on Amazon</a>
+</p>
 
 ## Frequently Asked Questions
 
