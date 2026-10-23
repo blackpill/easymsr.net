@@ -1,18 +1,18 @@
 ---
 layout: post
 title: MSR90 Software Download & Reader Setup Guide | EasyMSR
-description: Download MSR90 software for Windows or the reader apps for iOS and Safari. Check compatibility, follow setup steps, and fix common reading issues.
+description: Download MSR90 software for Windows or the reader apps for iOS, Android, and Safari. Check compatibility, follow setup steps, and fix common reading issues.
 permalink: /msr90/
 include_in_footer: true
 software_name: MSR90 Reader
-operating_system: Windows, iOS, macOS
+operating_system: Windows, iOS, Android, macOS
 download_url: https://www.easymsr.net/assets/msr90setup.zip
-last_modified_at: 2026-08-09
+last_modified_at: 2026-10-24
 ---
 
 # MSR90 Software Download and Reader Setup Guide
 
-Download **MSR90 software** for Windows or choose an MSR90 reader app for iPhone, iPad, and Safari. This guide explains which download to use, how USB keyboard-emulation mode works, and how to fix common MSR90 reading problems.
+Download **MSR90 software** for Windows or choose an MSR90 reader app for iPhone, iPad, Android, and Safari. This guide explains which download to use, how USB keyboard-emulation mode works, and how to fix common MSR90 reading problems.
 
 The MSR90 is a hand-swipe USB magnetic stripe reader. In its standard keyboard-emulation mode, it sends read data to the active text field like a USB keyboard, so basic reading may work without installing a separate driver.
 
@@ -22,17 +22,21 @@ The MSR90 is a hand-swipe USB magnetic stripe reader. In its standard keyboard-e
 |---|---|---|
 | Configure or test an MSR90 on a PC | Windows | [MSR90 Windows software](#msr90-software-for-windows) |
 | Capture reads into structured files | iPhone or iPad | [MSR Reader on the App Store]({{ site.msr90_ios_download }}) |
+| Capture reads into structured files | Android | [MSR Reader on Google Play]({{ site.msr90_android_download }}) |
 | Enter parsed card data in a website | Safari | [MSR90 Reader for Safari]({{ site.msr90_safari_download }}) |
 
 These downloads serve different workflows. If your device is an MSR605X reader/writer rather than an MSR90 keyboard-emulation reader, see the [MSR605X Android USB software guide](/msr605x-software/).
 
-## MSR Reader App for iPhone and iPad
+## MSR Reader App for iOS and Android
 
-MSR Reader is designed to capture supported MSR card data continuously and export structured results to a CSV file. CSV files can be opened in Microsoft Excel, Apple Numbers, Google Sheets, and other spreadsheet tools.
+MSR Reader is available for iPhone, iPad, and Android. It is designed to capture supported MSR card data continuously and export structured results to a CSV file. CSV files can be opened in Microsoft Excel, Apple Numbers, Google Sheets, and other spreadsheet tools.
 
 <p align="center">
   <a href="{{ site.msr90_ios_download }}" target="_blank" rel="noopener noreferrer">
     <img src="/assets/apple-badge.png" alt="Download MSR Reader for iPhone and iPad on the App Store" style="height:56px; margin-top:8px;" />
+  </a>
+  <a href="{{ site.msr90_android_download }}" target="_blank" rel="noopener noreferrer">
+    <img src="/assets/google-play-badge.svg" alt="Get MSR Reader for Android on Google Play" style="height:56px; margin-top:8px;" />
   </a>
 </p>
 
